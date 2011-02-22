@@ -36,7 +36,7 @@
 	<Button 
 		android:text="Login" 
 		android:layout_width="wrap_content" 
-		android:id="@+id/Button01" 
+		android:id="@+id/login_button" 
 		android:layout_height="wrap_content" 
 		android:layout_gravity="center_horizontal"
 		android:textSize="9pt">
