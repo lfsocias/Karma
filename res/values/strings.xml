@@ -3,4 +3,6 @@
     <string name="app_name">Karma</string>
     <string name="add_event_menu_item">Add Event</string>
     <string name="help_menu_item">Help</string>
+    <string name="server_url">http://furious-dawn-964.heroku.com/</string>
+    <string name="logout_menu_item">Logout</string>
 </resources>

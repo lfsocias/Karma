@@ -2,8 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
+    android:layout_height="fill_parent" >
 
 	<TextView 
 		android:text="Username:" 
@@ -30,6 +29,7 @@
 		android:text="" 
 		android:id="@+id/password_text" 
 		android:layout_width="fill_parent" 
+		android:password="true"
 		android:layout_height="wrap_content">
 	</EditText>
 

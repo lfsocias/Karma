@@ -8,6 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 
@@ -65,7 +66,7 @@ public class RestClient {
     
     public enum RequestMethod { GET, POST }
     
-    public void Execute(RequestMethod method) throws Exception
+    public void Execute(RequestMethod method) throws UnsupportedEncodingException
     {
         switch(method) {
             case GET: {
@@ -162,4 +163,8 @@ public class RestClient {
         }
         return sb.toString();
     }
+    
+    public static String getCredentials(String username, String password) {
+		return (Base64.encodeBytes((username + ":" + password).getBytes()));
+	}
 }

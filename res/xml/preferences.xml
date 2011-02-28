@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Credentials">
+        <EditTextPreference android:key="prefs_username" android:title="Username"></EditTextPreference>
+        <EditTextPreference android:key="prefs_password" android:title="Password"></EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Server">
+        <EditTextPreference android:key="prefs_server" android:summary="Which server to use?" android:defaultValue="http://furious-dawn-964.heroku.com/" android:title="Server"></EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
